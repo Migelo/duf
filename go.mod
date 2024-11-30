@@ -3,7 +3,7 @@ module github.com/muesli/duf
 go 1.17
 
 require (
-	github.com/IGLOU-EU/go-wildcard v1.0.3
+	github.com/IGLOU-EU/go-wildcard/v2 v2.0.2
 	github.com/IGLOU-EU/go-wildcard/v2 v2.0.2
 	github.com/jedib0t/go-pretty/v6 v6.6.3
 	github.com/mattn/go-runewidth v0.0.16
