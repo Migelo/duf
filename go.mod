@@ -2,7 +2,7 @@ module github.com/Migelo/duf
 
 go 1.23.0
 
-toolchain go1.24.4
+toolchain go1.24.5
 
 require (
 	github.com/IGLOU-EU/go-wildcard v1.0.3
