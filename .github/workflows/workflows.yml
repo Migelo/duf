@@ -44,7 +44,7 @@ jobs:
       GO111MODULE: "on"
     steps:
       - name: Install Go
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v6
         with:
           go-version: ${{ matrix.go-version }}
 
@@ -71,7 +71,7 @@ jobs:
           fetch-depth: 0 # Required for GoReleaser to determine tags
 
       - name: Set up Go
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v6
         with:
           go-version: '~1.25.0' # Use a consistent Go version for release, e.g., one from your build matrix
 
