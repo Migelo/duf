@@ -1,6 +1,6 @@
 module github.com/Migelo/duf
 
-go 1.23.0
+go 1.24.0
 
 toolchain go1.25.3
 
@@ -12,8 +12,8 @@ require (
 	github.com/muesli/mango v0.2.0
 	github.com/muesli/roff v0.1.0
 	github.com/muesli/termenv v0.16.0
-	golang.org/x/sys v0.35.0
-	golang.org/x/term v0.34.0
+	golang.org/x/sys v0.37.0
+	golang.org/x/term v0.36.0
 )
 
 require (
