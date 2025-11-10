@@ -13,7 +13,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v5
       - name: Run golangci-lint (Strict)
-        uses: golangci/golangci-lint-action@v8
+        uses: golangci/golangci-lint-action@v9
         with:
           # Uses default .golangci.yml or no config if not present
           # Fails on issues by default
@@ -26,7 +26,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v5
       - name: Run golangci-lint (Soft)
-        uses: golangci/golangci-lint-action@v8
+        uses: golangci/golangci-lint-action@v9
         with:
           args: --config .golangci-soft.yml --issues-exit-code=0
           only-new-issues: true
