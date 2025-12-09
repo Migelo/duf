@@ -29,7 +29,7 @@ builds:
 archives:
   - format_overrides:
       - goos: windows
-        format: zip
+        formats: [ 'zip' ]
     # replacements:
     #   windows: Windows
     #   darwin: Darwin
@@ -37,7 +37,7 @@ archives:
     #   amd64: x86_64
 
 nfpms:
-  - builds:
+  - ids:
       - duf
     vendor: muesli
     homepage: "https://fribbledom.com/"
