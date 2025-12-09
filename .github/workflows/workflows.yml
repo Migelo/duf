@@ -36,7 +36,7 @@ jobs:
     needs: [lint_strict, lint_soft] # Depends on both linting jobs
     strategy:
       matrix:
-        go-version: ['~1.23', '^1'] # Using strings for version specifiers
+        go-version: ['~1.24', '^1'] # Using strings for version specifiers
         os: [ubuntu-latest, macos-latest, windows-latest]
       fail-fast: false # Allow all matrix jobs to run even if one fails
     runs-on: ${{ matrix.os }}
