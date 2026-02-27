@@ -5,7 +5,7 @@ go 1.24.0
 toolchain go1.25.5
 
 require (
-	github.com/IGLOU-EU/go-wildcard v1.0.3
+	github.com/IGLOU-EU/go-wildcard/v2 v2.1.0
 	github.com/IGLOU-EU/go-wildcard/v2 v2.1.0
 	github.com/jedib0t/go-pretty/v6 v6.7.8
 	github.com/mattn/go-runewidth v0.0.20
